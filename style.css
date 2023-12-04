@@ -1,0 +1,132 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0;
+}
+h2{
+  display: inline;
+  color: #170443;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  caret-color: #170443;
+}
+input:focus{
+  outline-color: #170443;
+  border: 3px solid #170443;
+}
+button {
+  padding: 10px 20px;
+  background-color: #170443;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button.check{
+  border-radius: 0 5px 5px 0px;
+}
+.searchBox {
+  display: flex;
+}
+button:hover {
+  opacity: 50%;
+}
+.reStyle {
+  background-color: #170443;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 18px;
+  width: fit-content;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.5s ease;
+}
+.features{
+  margin: 3%;
+  margin-top: 40px;
+  color: #170443;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 767px) {
+  .emailValidator {
+    width: 90%;
+    background-color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  input{
+    width: 100%;
+    border-radius: 0;
+  }
+  .searchBox{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .emailValidator {
+    width: 90%;
+    background-color: white;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .emailValidator {
+    width: 90%;
+    background-color: white;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+.header{
+  font-weight: bold;
+}
+nav{
+  padding: 10px;
+  background: white;
+  color: #170443;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  perspective: 10px;
+}
+.nav-brand{
+  font-size: 32px;
+  font-family: sans-serif;
+  flex: 1;
+}
+.liHead{
+  font-weight: bold;
+}
+.nav-signUp{
+  margin-left: 30px;
+}
